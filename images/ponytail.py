@@ -5,9 +5,7 @@ def check_vision_test_results(results):
     return "OK" if correct_count >= 3 else "NG"
 
 
-# 入力を受け取る
 results = [input() for _ in range(5)]
 
-# 結果を出力
 result = check_vision_test_results(results)
 print(result)
