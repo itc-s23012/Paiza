@@ -17,3 +17,5 @@
 - [タレ目](./images/tareme.py)
 
 - [ツリ目](./images/tsurime.py)
+
+- [ポニーテイル](./images/ponytail.py)
