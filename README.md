@@ -23,3 +23,5 @@
 - [ツインテール](./images/twintail.py)
 
 - [おさげ](./images/osage.py)
+
+- [メガネ](./images/glasses.py)
