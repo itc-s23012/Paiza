@@ -1,7 +1,7 @@
 def calculate_points(p):
-    points = p // 100  # 100円毎に1ポイント付与
+    points = p // 100
     if p >= 1000:
-        points += 10  # 1000円以上の買い物でボーナスポイント追加
+        points += 10
     return points
 
 
