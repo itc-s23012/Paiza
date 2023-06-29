@@ -21,3 +21,5 @@
 - [ポニーテイル](./images/ponytail.py)
 
 - [ツインテール](./images/twintail.py)
+
+- [おさげ](./images/osage.py)
