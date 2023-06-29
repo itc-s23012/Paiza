@@ -13,3 +13,5 @@
 - [キュート衣装](./images/cutecostume.py)
 
 - [セクシー衣装](./images/sexycostume.py)
+
+- [タレ目](./images/tareme.py)
