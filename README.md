@@ -1,6 +1,6 @@
 # paiza
 
-# cdegirlcollecton
+# cdegirlcollection
 
 ![codegirlcollection](./images/test.png)
 
