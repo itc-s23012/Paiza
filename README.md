@@ -15,3 +15,5 @@
 - [セクシー衣装](./images/sexycostume.py)
 
 - [タレ目](./images/tareme.py)
+
+- [ツリ目](./images/tsurime.py)
