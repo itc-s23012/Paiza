@@ -11,3 +11,5 @@
 - [ロングヘア](./images/longhair.py)
 
 - [キュート衣装](./images/cutecostume.py)
+
+- [セクシー衣装](./images/sexycostume.py)
