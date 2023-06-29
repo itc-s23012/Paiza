@@ -19,3 +19,5 @@
 - [ツリ目](./images/tsurime.py)
 
 - [ポニーテイル](./images/ponytail.py)
+
+- [ツインテール](./images/twintail.py)
