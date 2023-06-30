@@ -1,11 +1,8 @@
-def calculate_points(p):
-    points = p // 100
-    if p >= 1000:
-        points += 10
-    return points
+def f(p):
+    return p // 100 + ((0), (10))[p >= 1000]
 
 
 p = int(input())
 
-result = calculate_points(p)
+result = f(p)
 print(result)

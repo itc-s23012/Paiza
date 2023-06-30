@@ -1,4 +1,4 @@
-def check_vision_test_results(results):
+def f(results):
     correct_count = sum(
         [1 for result in results if result.split()[0] == result.split()[1]]
     )
@@ -7,5 +7,5 @@ def check_vision_test_results(results):
 
 results = [input() for _ in range(5)]
 
-result = check_vision_test_results(results)
+result = f(results)
 print(result)

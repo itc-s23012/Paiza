@@ -1,11 +1,8 @@
-def check_movie_availability(s, n):
-    if s >= n:
-        return "OK"
-    else:
-        return "NG"
+def f(s, n):
+    return (("NG"), ("OK"))[s >= n]
 
 
 s, n = map(int, input().split())
 
-result = check_movie_availability(s, n)
+result = f(s, n)
 print(result)

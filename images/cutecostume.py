@@ -1,11 +1,8 @@
-def check_candy_pack(n, m):
-    if m % n == 0:
-        return "ok"
-    else:
-        return "ng"
+def f(n, m):
+    return "ng" if m % n else "ok"
 
 
 n, m = map(int, input().split())
 
-result = check_candy_pack(n, m)
+result = f(n, m)
 print(result)

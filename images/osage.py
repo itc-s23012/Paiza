@@ -1,15 +1,15 @@
-def check_cd_capacity(n, m, durations):
-    total_duration = 0
+def f(n, m, a):
+    total_a = 0
     for i in range(m):
-        total_duration += durations[i]
-        if total_duration > n * 60:
+        total_a += a[i]
+        if total_a > n * 60:
             return str(i)
     return "OK"
 
 
 n = int(input())
 m = int(input())
-durations = [int(input()) for _ in range(m)]
+a = [int(input()) for _ in range(m)]
 
-result = check_cd_capacity(n, m, durations)
+result = f(n, m, a)
 print(result)

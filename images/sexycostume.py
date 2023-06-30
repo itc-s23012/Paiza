@@ -1,12 +1,8 @@
-def calculate_steps(m, n):
-    total_steps = m - n
-    if total_steps <= 0:
-        return 0
-    else:
-        return total_steps
+def f(m, n):
+    return 0 if n > m else m - n
 
 
 m, n = map(int, input().split())
 
-result = calculate_steps(m, n)
+result = f(m, n)
 print(result)

@@ -1,11 +1,11 @@
-def display_progress(s, t):
-    progress = ["-"] * s
-    progress[t - 1] = "+"
-    return "".join(progress)
+def f(s, t):
+    a = ["-"] * s
+    a[t - 1] = "+"
+    return "".join(a)
 
 
 s = int(input())
 t = int(input())
 
-result = display_progress(s, t)
+result = f(s, t)
 print(result)

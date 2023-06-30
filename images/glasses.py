@@ -1,4 +1,4 @@
-def find_middle_number(numbers):
+def f(numbers):
     sorted_numbers = sorted(numbers, reverse=True)
     middle_index = (len(sorted_numbers) + 1) // 2
     return str(sorted_numbers[middle_index - 1])
@@ -7,5 +7,5 @@ def find_middle_number(numbers):
 n = int(input())
 numbers = list(map(int, input().split()))
 
-result = find_middle_number(numbers)
+result = f(numbers)
 print(result)
