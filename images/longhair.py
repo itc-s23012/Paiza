@@ -1,12 +1,9 @@
-def check_lucky_number(n):
-    if n % 7 == 0:
-        return "lucky"
-    else:
-        return "unlucky"
+def f(n):
+    return "lucky" if n % 7 == 0 else "unlucky"
 
 
 n = int(input().rstrip())
 
 
-result = check_lucky_number(n)
+result = f(n)
 print(result)
